@@ -4,8 +4,6 @@ A machine learning web application that predicts the likelihood of a borrower de
 This project uses real Prosper Loan data to analyze borrower behavior, train a predictive model, and deploy it via a Flask web app.
 
 ---
-Our interface look like :
-<img width="2535" height="1275" alt="image" src="https://github.com/user-attachments/assets/c4547aa5-3643-4aeb-a143-00a8aa270cb4" />
 
 ## 🚀 Project Overview
 
@@ -98,5 +96,6 @@ Sujen Purty
  | GitHub
 
 ⭐ If you like this project, don’t forget to give it a star
+
 
 
