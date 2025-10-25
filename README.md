@@ -96,7 +96,3 @@ Sujen Purty
  | GitHub
 
 ⭐ If you like this project, don’t forget to give it a star
-
----
-
-Would you like me to make this **visually enhanced (with emojis, badges, and alignment)** version for GitHub display? It’ll look more professional and modern.
