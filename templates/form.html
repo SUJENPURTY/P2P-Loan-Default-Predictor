@@ -1,0 +1,16 @@
+<form action="/predict" method="post">
+    <div class="row" style="max-width: 800px; margin: auto; background-color: #eee; padding: 25px; border-radius: 10px;">
+        {% for col in ['CreditGrade','Term','BorrowerRate','LenderYield','ProsperScore',
+                       'EmploymentStatus','IsBorrowerHomeowner','CurrentCreditLines',
+                       'OpenRevolvingAccounts','InquiriesLast6Months','TotalInquiries',
+                       'BankcardUtilization','AvailableBankcardCredit','TotalTrades',
+                       'DebtToIncomeRatio','IncomeVerifiable','StatedMonthlyIncome',
+                       'LoanOriginalAmount','MonthlyLoanPayment'] %}
+        <div class="col-md-6 mb-3">
+            <input type="number" step="any" name="{{ col }}" class="form-control" placeholder="{{ col }}" required>
+        </div>
+        {% endfor %}
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Predict</button>
+</form>
